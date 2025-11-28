@@ -1,0 +1,13 @@
+{
+  "name": "render-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "http-proxy-middleware": "latest"
+  }
+}
