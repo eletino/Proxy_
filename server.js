@@ -6,7 +6,7 @@ const app = express();
 app.use(
   "/",
   createProxyMiddleware({
-    target: "https://zieladresse.com",
+    target: "https://eletino.de/",
     changeOrigin: true
   })
 );
